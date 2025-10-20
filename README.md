@@ -104,7 +104,7 @@ for more details.
 
 ## Requirements
 
-You will need at least Python 3.8. See `requirements_minimal.txt` for requirements for separation only,
+You will need at least Python 3.13.0. See `requirements_minimal.txt` for requirements for separation only,
 and `environment-[cpu|cuda].yml` (or `requirements.txt`) if you want to train a new model.
 
 ### For Windows users
@@ -254,7 +254,7 @@ If you do not have enough memory on your GPU, simply add `-d cpu` to the command
 
 ## Calling from another Python program
 
-The main function provides an `opt` parameter as a simple API. You can just pass the parsed command line as this parameter: 
+The main function provides an `opt` parameter as a simple API. You can just pass the parsed command line as this parameter:
 ```python
 # Assume that your command is `demucs --mp3 --two-stems vocals -n mdx_extra "track with space.mp3"`
 # The following codes are same as the command above:
