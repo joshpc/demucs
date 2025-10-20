@@ -11,12 +11,12 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ github.repository == 'facebookresearch/demucs' || github.event_name == 'workflow_dispatch' }}
     steps:
-    - uses: actions/checkout@v2
-    - uses: actions/setup-python@v2
+    - uses: actions/checkout@v4
+    - uses: actions/setup-python@v4
       with:
-        python-version: 3.8
+        python-version: 3.13.1
 
-    - uses: actions/cache@v2
+    - uses: actions/cache@v4
       with:
         path: env
         key: env-${{ hashFiles('**/requirements.txt', '.github/workflows/*') }}

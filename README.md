@@ -104,7 +104,7 @@ for more details.
 
 ## Requirements
 
-You will need at least Python 3.13.0. See `requirements_minimal.txt` for requirements for separation only,
+You will need at least Python 3.13.1. See `requirements_minimal.txt` for requirements for separation only,
 and `environment-[cpu|cuda].yml` (or `requirements.txt`) if you want to train a new model.
 
 ### For Windows users
