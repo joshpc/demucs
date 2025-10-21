@@ -9,7 +9,6 @@ dependencies:
   - ffmpeg>=4.2
   - pytorch>=2.9.0
   - torchaudio==2.9.0
-  - torchcodec==0.8
   - tqdm>=4.36
   - pip
   - pip:
