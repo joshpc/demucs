@@ -12,8 +12,8 @@ mypy
 openunmix
 pyyaml
 submitit
-torch==2.9.0
-torchaudio==2.9.0
+torch~=2.8.0
+torchaudio~=2.8.0
 torchcodec==0.8
 tqdm
 treetable
